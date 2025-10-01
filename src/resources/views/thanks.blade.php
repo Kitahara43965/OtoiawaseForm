@@ -7,7 +7,13 @@
 @section('content')
 <div class="thanks__content">
   <div class="thanks__heading">
-    <h2>お問い合わせありがとうございます</h2>
+    <h2>Thank you</h2>
   </div>
+  <button>
+    <a class="link-notformat" href="/">
+      HOME
+    </a>
+  </button>
 </div>
+
 @endsection

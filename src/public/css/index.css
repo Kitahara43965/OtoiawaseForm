@@ -38,10 +38,9 @@
 .form__input--text input,
 .form__input--textarea textarea {
   padding: 10px;
-  width: 600px;
+  width: 300px;
   border: 1px solid #ddd;
   border-radius: 3px;
-
   appearance: none;
 }
 
@@ -52,6 +51,20 @@
 .form__input--textarea textarea {
   height: 180px;
 }
+
+.form__input--text2 input{
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  appearance: none;
+}
+
+.form__input--text2 input {
+  height: 40px;
+}
+
+
 
 .form__button {
   margin-top: 30px;
@@ -67,3 +80,8 @@
   color: #fff;
   cursor: pointer;
 }
+
+.test{
+  width: 300px;
+}
+
