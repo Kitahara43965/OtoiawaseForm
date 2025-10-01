@@ -35,7 +35,7 @@ DB_PASSWORD=laravel_pass<br>
 とします。<br>
 (ハ-3) phpコンテナ上で<br>
 php artisan key:generate<br>
-php artisan migrate (マイグレーション)<br>
+php artisan migrate:fresh (マイグレーション)<br>
 php artisan db:seed (シーディング)<br>
 と入力します。<br>
 <br>
